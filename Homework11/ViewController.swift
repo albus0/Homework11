@@ -82,7 +82,7 @@ class ViewController: UIViewController {
            let secondButton = UIButton(type: .system)
            secondButton.backgroundColor = .clear
            secondButton.setTitle("Forgot your password?", for: .normal)
-           secondButton.setTitleColor(UIColor.white, for: .normal)
+           secondButton.setTitleColor(UIColor.black, for: .normal)
            secondButton.translatesAutoresizingMaskIntoConstraints = false
            return secondButton
        }()
@@ -158,7 +158,7 @@ class ViewController: UIViewController {
            label.text = "Dont have account?"
            label.textAlignment = .center
            label.font = UIFont.boldSystemFont(ofSize: 13)
-           label.textColor = .white
+           label.textColor = .black
            label.translatesAutoresizingMaskIntoConstraints = false
            return label
        }()
@@ -285,7 +285,7 @@ class ViewController: UIViewController {
            
            lowerLabel.snp.makeConstraints { make in
                make.centerX.equalTo(view)
-               make.left.equalTo(view).offset(100)
+               make.left.equalTo(view).offset(50)
                make.right.equalTo(view).offset(-180)
                make.height.equalTo(20)
                make.top.equalTo(buttonTwitter.snp.bottom).offset(30)
@@ -299,8 +299,5 @@ class ViewController: UIViewController {
                make.top.equalTo(buttonTwitter.snp.bottom).offset(32)
            }
        }
-
-
-
 }
 
