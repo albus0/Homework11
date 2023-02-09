@@ -12,6 +12,7 @@
 		B1F84411299401910075C8DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F84410299401910075C8DE /* ViewController.swift */; };
 		B1F84416299401910075C8DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1F84415299401910075C8DE /* Assets.xcassets */; };
 		B1F84419299401910075C8DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1F84417299401910075C8DE /* LaunchScreen.storyboard */; };
+		B1F84421299557370075C8DE /* Extension+UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F84420299557370075C8DE /* Extension+UITextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B1F84415299401910075C8DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1F84418299401910075C8DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1F8441A299401910075C8DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1F84420299557370075C8DE /* Extension+UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UITextField.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				B1F84415299401910075C8DE /* Assets.xcassets */,
 				B1F84417299401910075C8DE /* LaunchScreen.storyboard */,
 				B1F8441A299401910075C8DE /* Info.plist */,
+				B1F84420299557370075C8DE /* Extension+UITextField.swift */,
 			);
 			path = Homework11;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1F84411299401910075C8DE /* ViewController.swift in Sources */,
+				B1F84421299557370075C8DE /* Extension+UITextField.swift in Sources */,
 				B1F8440D299401910075C8DE /* AppDelegate.swift in Sources */,
 				B1F8440F299401910075C8DE /* SceneDelegate.swift in Sources */,
 			);
